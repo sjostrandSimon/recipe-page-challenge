@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Young Serif", sans-serif;
+}
+
+p {
+  color: hsl(30, 10%, 34%);
+}
+
+.container {
+  width: 750px;
+  background-color: aliceblue;
+  padding: 40px 40px 0 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.dish-img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.dish-description {
+  margin-bottom: 35px;
+}
+
+/* Preparation time */
+.prep-time-container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+}
+
+.prep-time-container h3 {
+  padding-bottom: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+.prep-time-container li {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.prep-time-container li:last-child {
+  padding-bottom: 0;
+}
+
+/* Ingredients */
+.ingredients-header {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list {
+  border-bottom: 1px solid rgb(193, 193, 193);
+  margin-bottom: 30px;
+}
+
+.ingredients-list li {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients-list li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list li:last-child {
+  padding-bottom: 30px;
+}
+
+/* Instructions */
+.instructions-header {
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+ol {
+  border-bottom: 1px solid rgb(193, 193, 193);
+  margin-bottom: 30px;
+}
+
+ol li {
+  margin-left: 20px;
+  padding: 0 0 15px 15px;
+  line-height: 1.5;
+  color: hsl(30, 10%, 34%);
+}
+
+ol li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+ol li:last-child {
+  padding-bottom: 30px;
+}
+
+/* Nutritions */
+
+.nutr-header {
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutr-description {
+  margin-bottom: 10px;
+}
+
+.nutr-container {
+  margin-bottom: 30px;
+}
+
+.nutr-container div {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.nutr-item-container p {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.nutrition-value {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutr-container div:last-child {
+  border: none;
+}
+
+.nutr-item {
+  width: 350px;
+}
+
+.attribution {
+  padding-bottom: 0;
+}
