@@ -157,12 +157,9 @@ ol li:last-child {
 
 .nutr-container div:last-child {
   border: none;
+  padding-bottom: 25px;
 }
 
 .nutr-item {
   width: 350px;
-}
-
-.attribution {
-  padding-bottom: 0;
 }
